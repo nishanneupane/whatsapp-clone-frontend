@@ -1,0 +1,17 @@
+::-webkit-scrollbar{
+    scrollbar-width: none;
+    width: none;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+
+.scrollbar{
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: transparent transparent; /* Firefox */
+  }
+  
+  .scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+  
